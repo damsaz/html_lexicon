@@ -1,0 +1,158 @@
+.container {
+  background-color: rgb(142, 168, 168);
+  border: 2px solid rgb(3, 3, 3);
+  margin: 8px;
+    width: auto;
+    height: auto;
+    display: grid;
+   
+    grid-template-areas:
+      'header header header header'
+      'main main main side-bar'
+      'footer footer footer footer';
+      grid-template-rows: 80px 1fr 70px ;
+      grid-template-columns: 1fr 1fr 1fr 200px;
+  }
+  .containermain {
+    border: 2px solid rgb(3, 3, 3);
+    width: auto;
+    height: auto;
+    margin: 8px;
+    display: grid;
+    grid-template-areas:
+      'mainheader mainheader mainheader mainheader'
+      'subtext subtext subtext subtext'
+      'art1 art1 art2 art2 '
+      'art1 art1 art2 art2 '
+      'art1 art1 art2 art2 ';
+    
+  }
+  .containerloginform {
+    background-color: rgb(142, 168, 168);
+    border: 2px solid rgb(3, 3, 3);
+    margin: 8px;
+      width: auto;
+      height: auto;
+      display: grid;
+     
+      grid-template-areas:
+        'header header header '
+        '1 logintext 2 '
+        '1 formlogin 2 '
+        'footer footer footer ';
+        grid-template-rows: 70px 35px 1fr 70px ;
+        grid-template-columns: 1fr 1fr 1fr ;
+    
+  }
+  .logo{
+    border: 2px solid rgb(3, 3, 3);
+   
+  }
+  .side{
+    border: 2px solid rgb(3, 3, 3);
+    margin: 8px;
+  }
+  .mainheader {
+    
+    border: 2px solid rgb(3, 3, 3);
+    margin: 8px;
+    width: 20%;
+    grid-area: mainheader;
+    text-align: center;
+  }
+  .subtext {
+    border: 2px solid rgb(3, 3, 3);
+    margin: 8px;
+    grid-area: subtext;
+    text-align: center;
+  }
+  .art1 {
+    border: 2px solid rgb(3, 3, 3);
+    margin: 8px;
+    grid-area: art1;
+    text-align: center;
+   
+  }
+  .art2 {
+    border: 2px solid rgb(3, 3, 3);
+    margin: 8px;
+    grid-area: art2;
+    text-align: center;
+  }
+  .heders {
+    
+    display: flex;
+    justify-content: space-between;
+      
+      
+  }
+  .login{
+    border: 2px solid rgb(3, 3, 3);
+    
+  }
+  .menu {
+    border: 2px solid rgb(3, 3, 3);
+    
+    width: 50%;
+    display: grid;
+    grid-template-areas:
+      '1 2 3'
+  }
+  .header {
+    margin: 8px;
+    border: 2px solid rgb(3, 3, 3);
+    grid-area: header;
+  }
+  .main-content {
+    
+    margin: 8px;
+    grid-area: main;
+  }
+  .side-bar {
+    border: 2px solid rgb(3, 3, 3);
+     
+
+  
+    grid-area: side-bar;
+  }
+  .footer {
+    margin: 8px;
+    border: 2px solid rgb(3, 3, 3);
+    grid-area: footer;
+    text-align: center;
+  }
+  .left-wrapper,
+.right-wrapper {
+  display: inline-block;
+}
+
+.right-wrapper {
+  display: inline-block;
+}
+.aside {
+  border: 2px solid rgb(3, 3, 3);
+  
+  margin-top: 18px;
+  margin-left: 5;
+  margin-right: 8px;
+}
+.offset-1 {
+  margin-right: calc(25% + 5px);
+}
+.shift{
+  border: 2px solid rgb(3, 3, 3);
+  margin: 8px;
+  height: auto;
+  width: 100%;
+}
+.formlogin {
+  border: 2px solid rgb(3, 3, 3);
+  grid-area:formlogin;
+  
+
+
+  align-items: center;
+}
+.logintext{
+  grid-area: logintext;
+}
