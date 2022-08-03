@@ -10,38 +10,55 @@
   
    <body >
       <div class="containerloginform">
-      <div class="header"> 
-         <div class="heders">
-        
-         <p class="shift"><img src="image/2.png" alt="a crow" width="25" height="25"> </p> 
-         <p class="shift"><a href = "">link 1</a></p>
-         <p class="shift"><a href = "">link 2</a></p>
-         <p class="shift"><a href = "">link 3</a></p>
-         <p class="shift"></p>
-      
-        <p class="shift href"> <a  href= "index.html">Index</a></p>
-      
-      </div>
+         <div class="header top-header"> 
+         
+             
+            <!-- Logo -->
+            <div id="logo">
+                <img src="image/logo.png" />
+            </div>   
+                     
+            <!-- Navigation Menu -->
+            <nav>
+              <div id="menu">
+                <ul>
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="#">link 1</a></li>
+                  <li><a href="#">link2</a></li>
+                  <li><a href="#">link3</a></li>
+                  
+                </ul>
+              </div>
+            </nav>
+       
+     
+        <!-- Image menu in Header to contain an Image and
+             a sample text over that image -->
+        <div id="menulog">
+         <ul>
+         <li><a href="Index.html">Index</a></li>
+         </ul>
+        </div>
    </div> 
    <div class="logintext">
-      <p>Login</p>
+      <h1>Login</h1>
    </div>
-   <div class="formlogin">
-<form  action = "" method = "post">  
-    <p> 
-       <label for = "Username">Username </label> 
-       <input type = "text" id = "Username"> 
-       <br>
-       <label for = "password">Password: </label> 
-       <input type = "password" id = "password"> 
-       <br>
-       <br>
-       <input type = "submit" value = "send"> <input type = "reset"> 
-    </p> 
+ 
+<form  class="formlogin" action = "" method = "post">  
+
+       <label class="L_u_t" for = "Username">Username </label> 
+       <input  class="L_u_p"  type = "text" id = "Username"> 
+       
+       <label  class="L_p_t" for = "password">Password: </label> 
+       <input  class="L_p_i" type = "password" id = "password"> 
+       
+      
+       <input  class="L_b_s buttonreset" type = "reset" value = "Reset"> <input value = "Login" class="L_b_r buttonlogin" type = "submit"> 
+    
  </form> 
-</div>
+
  <footer class="footer"> 
-    <p>&copy; Behrouz Damsaz</p>
+    <p>&copy; Copyright 2022 Behrouz Damsaz</p>
  </footer> 
 </div>
 </body> 
